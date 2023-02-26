@@ -6,28 +6,24 @@ public class Calculator {
 
             switch (op) {
 
-                // case to add two numbers
                 case '+':
 
                     o = num1 + num2;
 
                     break;
 
-                // case to subtract two numbers
                 case '-':
 
                     o = num1 - num2;
 
                     break;
 
-                // case to multiply two numbers
                 case '*':
 
                     o = num1 * num2;
 
                     break;
 
-                // case to divide two numbers
                 case '/':
 
                     o = num1 / num2;
@@ -45,7 +41,6 @@ public class Calculator {
 
             System.out.println();
 
-            // print the final result
             System.out.println(num1 + " " + op + " " + num2
                     + " = " + o);
             }
